@@ -29,6 +29,8 @@ AddTodoInput.addEventListener("click", function() {
     todo = TodoInput.value;
     if (todo) {
         addTodo();
+    } else {
+        alert("you haven't entered any todo!!!")
     }
 })
 TodoInput.addEventListener("keypress", function(event) {
